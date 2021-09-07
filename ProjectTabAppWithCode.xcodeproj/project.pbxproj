@@ -13,7 +13,44 @@
 		B2788E9126E6D3C7005D61A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2788E8F26E6D3C7005D61A5 /* Main.storyboard */; };
 		B2788E9326E6D3C8005D61A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2788E9226E6D3C8005D61A5 /* Assets.xcassets */; };
 		B2788E9626E6D3C8005D61A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2788E9426E6D3C8005D61A5 /* LaunchScreen.storyboard */; };
+		B281D63826E72B58008F28E7 /* TestNaviFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B281D63326E72B43008F28E7 /* TestNaviFramework.framework */; };
+		B281D63926E72B58008F28E7 /* TestNaviFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B281D63326E72B43008F28E7 /* TestNaviFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B29A577F26E711B300667E29 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29A577E26E711B300667E29 /* SecondViewController.swift */; };
+		B29A578226E7122600667E29 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29A578126E7122600667E29 /* ThirdViewController.swift */; };
+		B29A578526E7125200667E29 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29A578426E7125200667E29 /* FourthViewController.swift */; };
+		B29A578826E7127400667E29 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29A578726E7127400667E29 /* FifthViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B281D63226E72B43008F28E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B281D62D26E72B43008F28E7 /* TestNaviFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B281D60926E72A4A008F28E7;
+			remoteInfo = TestNaviFramework;
+		};
+		B281D63426E72B43008F28E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B281D62D26E72B43008F28E7 /* TestNaviFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B281D61226E72A4A008F28E7;
+			remoteInfo = TestNaviFrameworkTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B29A57D326E728B800667E29 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B281D63926E72B58008F28E7 /* TestNaviFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B2788E8626E6D3C7005D61A5 /* ProjectTabAppWithCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTabAppWithCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +61,11 @@
 		B2788E9226E6D3C8005D61A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2788E9526E6D3C8005D61A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2788E9726E6D3C8005D61A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B281D62D26E72B43008F28E7 /* TestNaviFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TestNaviFramework.xcodeproj; path = ../TestNaviFramework/TestNaviFramework.xcodeproj; sourceTree = "<group>"; };
+		B29A577E26E711B300667E29 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B29A578126E7122600667E29 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		B29A578426E7125200667E29 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		B29A578726E7127400667E29 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B281D63826E72B58008F28E7 /* TestNaviFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +83,10 @@
 		B2788E7D26E6D3C7005D61A5 = {
 			isa = PBXGroup;
 			children = (
+				B281D62D26E72B43008F28E7 /* TestNaviFramework.xcodeproj */,
 				B2788E8826E6D3C7005D61A5 /* ProjectTabAppWithCode */,
 				B2788E8726E6D3C7005D61A5 /* Products */,
+				B29A57D026E728B700667E29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +108,28 @@
 				B2788E9226E6D3C8005D61A5 /* Assets.xcassets */,
 				B2788E9426E6D3C8005D61A5 /* LaunchScreen.storyboard */,
 				B2788E9726E6D3C8005D61A5 /* Info.plist */,
+				B29A577E26E711B300667E29 /* SecondViewController.swift */,
+				B29A578126E7122600667E29 /* ThirdViewController.swift */,
+				B29A578426E7125200667E29 /* FourthViewController.swift */,
+				B29A578726E7127400667E29 /* FifthViewController.swift */,
 			);
 			path = ProjectTabAppWithCode;
+			sourceTree = "<group>";
+		};
+		B281D62E26E72B43008F28E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B281D63326E72B43008F28E7 /* TestNaviFramework.framework */,
+				B281D63526E72B43008F28E7 /* TestNaviFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B29A57D026E728B700667E29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +142,7 @@
 				B2788E8226E6D3C7005D61A5 /* Sources */,
 				B2788E8326E6D3C7005D61A5 /* Frameworks */,
 				B2788E8426E6D3C7005D61A5 /* Resources */,
+				B29A57D326E728B800667E29 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -112,12 +178,35 @@
 			mainGroup = B2788E7D26E6D3C7005D61A5;
 			productRefGroup = B2788E8726E6D3C7005D61A5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B281D62E26E72B43008F28E7 /* Products */;
+					ProjectRef = B281D62D26E72B43008F28E7 /* TestNaviFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B2788E8526E6D3C7005D61A5 /* ProjectTabAppWithCode */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B281D63326E72B43008F28E7 /* TestNaviFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TestNaviFramework.framework;
+			remoteRef = B281D63226E72B43008F28E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B281D63526E72B43008F28E7 /* TestNaviFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TestNaviFrameworkTests.xctest;
+			remoteRef = B281D63426E72B43008F28E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B2788E8426E6D3C7005D61A5 /* Resources */ = {
@@ -140,6 +229,10 @@
 				B2788E8E26E6D3C7005D61A5 /* ViewController.swift in Sources */,
 				B2788E8A26E6D3C7005D61A5 /* AppDelegate.swift in Sources */,
 				B2788E8C26E6D3C7005D61A5 /* SceneDelegate.swift in Sources */,
+				B29A578526E7125200667E29 /* FourthViewController.swift in Sources */,
+				B29A578826E7127400667E29 /* FifthViewController.swift in Sources */,
+				B29A577F26E711B300667E29 /* SecondViewController.swift in Sources */,
+				B29A578226E7122600667E29 /* ThirdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
